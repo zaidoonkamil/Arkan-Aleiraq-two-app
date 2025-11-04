@@ -10,6 +10,10 @@ class GetProductsLoadingState extends AppStates {}
 class GetProductsSuccessState extends AppStates {}
 class GetProductsErrorState extends AppStates {}
 
+class GetProfileLoadingState extends AppStates {}
+class GetProfileSuccessState extends AppStates {}
+class GetProfileErrorState extends AppStates {}
+
 class DeleteProductsLoadingState extends AppStates {}
 class DeleteProductsSuccessState extends AppStates {}
 class DeleteProductsErrorState extends AppStates {}

@@ -11,6 +11,7 @@ import '../../../core/widgets/constant.dart';
 import '../../core/cubit/cubit.dart';
 import '../../core/cubit/states.dart';
 import '../../core/network/remote/dio_helper.dart';
+import 'Search.dart';
 
 
 class HomeAdmin extends StatelessWidget {
@@ -77,6 +78,20 @@ class HomeAdmin extends StatelessWidget {
                                 color: primaryColor,
                               ),
                               child: Center(child: Text('اضافة منتج',style: TextStyle(color: Colors.white),)),
+                            ),
+                          ),
+                          SizedBox(height: 10,),
+                          GestureDetector(
+                            onTap: (){
+                              navigateTo(context, Search());
+                            },
+                            child: Container(
+                              width: double.maxFinite,
+                              height: 40,
+                              decoration: BoxDecoration(borderRadius: BorderRadius.circular(10),
+                                color: primaryColor,
+                              ),
+                              child: Center(child: Text('بحث عن مستخدم',style: TextStyle(color: Colors.white),)),
                             ),
                           ),
                           SizedBox(height: 10,),
