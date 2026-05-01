@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 
-String url='https://arkanaleiraqtwo.khaleeafashion.com';
+String url='https://arkanaleiraqtwo.napoltech.com';
 
 class DioHelper {
   static Dio? dio;
